@@ -1,4 +1,4 @@
-Dedicated to combating texturing bugs. A lot of texure bugs are simply the result is typos or mistakes in the main .qc or the .vmt files, so be sure to pay attention!
+This file contains troubleshooting fixes for texturing issues. A lot of texure bugs are simply typos or mistakes in the main .qc or the .vmt files, so be sure to pay attention!
 
 Q1: I've set up my .vmt files to display textures in-game, but my model still appears untextured!
 
