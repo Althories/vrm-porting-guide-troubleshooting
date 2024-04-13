@@ -1,8 +1,9 @@
 Troubleshooting common problems in current Blender and Blender 2.79.
 
 ---------- NEW BLENDER ----------
-Q1: 
+Q1: When I imported the sample collision model, it's in A-pose when it should be in T-pose.
 
+A1: You're using the sample collision file provided in Deadwater's resources. Use the sampleA or sampleC collision model smds instead, as those are in T-pose.
 
 ---------- OLD BLENDER ----------
 Q1: RuntimeError: Armature 'proportions' not in edit mode, cannot add an editbone
