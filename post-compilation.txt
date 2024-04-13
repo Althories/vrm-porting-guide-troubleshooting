@@ -1,4 +1,4 @@
-This file contains troubleshooting fixes for problems after compilation results.
+This file contains troubleshooting fixes for problems after successful model compilation.
 
 Q1: My model compiled, but it's stuck in a T-pose!
 
