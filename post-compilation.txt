@@ -1,0 +1,6 @@
+Troubleshooting for problems related to compilation results
+
+Q1: My model compiled, but it's stuck in a T-pose!
+
+A1: It's likely that the skeleton wasn't properly identified by Crowbar. You may have forgotten to rename the bones, insert the defineBone lines into your .qc file, or there was a misstep during proportion trick. Checking for the first two is easy,
+but knowing whether you messed up in proportion trick can be tough to determine. If that might be the case, I would recommend re-exporting your model from new Blender and re-applying proportion trick.
