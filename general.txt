@@ -1,5 +1,3 @@
 This file contains many solutions that aren't specific to any one program in the process.
 
-Q1: My model is working in-game, but it uses this weird getup animation when landing on the ground.
 
-A1: Remove the two instances of $includemodel "humans/female_shared.mdl" in your .qc file and recompile. This animation pack includes that animation, so removing the line will remove the animation.
