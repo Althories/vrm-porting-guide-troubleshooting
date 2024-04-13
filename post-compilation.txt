@@ -20,3 +20,7 @@ A4: The usual reason for this is because not all bones were properly handled in 
 Q5: The ragdoll for my model is colliding improperly with itself and causing odd collision behavior.
 
 A5: Redo your collision model smd in current Blender. It's possible you made parts of the collision model overlap, which, unsurprisingly, can lead to unusual collision behavior. That, or just use one of the preset sampleA/C smds in your .qc file and recompile your model.
+
+Q6: My playermodel arms are blocking part or all of my pov!
+
+A6: You'll need to delete some more of the c_arms mesh in Blender that's closer to where the head would be. If there are any parts that point inwards towards the head, there's a chance they'll obstruct your view.
