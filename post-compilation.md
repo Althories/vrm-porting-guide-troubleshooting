@@ -1,6 +1,6 @@
 ## This file contains troubleshooting fixes for problems after successful model compilation.
 
-### ---------- GENERAL ----------
+### >---------- GENERAL ----------
 
 Q1: My model compiled, but its limbs are all stretched out!
 
@@ -19,7 +19,7 @@ Q4: My model is working in-game, but it uses this weird getup animation when lan
 
 > A4: Remove the two instances of $includemodel "humans/female_shared.mdl" in your .qc file and recompile. This animation pack includes that animation, so removing the line will remove the animation.
 
-### ---------- RAGDOLL ----------
+### >---------- RAGDOLL ----------
 
 Q5: The ragdoll for my model has verticies stretching the mesh in unnatural directions.
 
@@ -33,7 +33,7 @@ Q7: The toe/foot bones on my radgoll are indented into the mesh!
 
 > A7: This stems from a misstep in proportion trick, particularly the part involving rotation of the foot and toe bones. Time to redo proportion trick!
 
-### ---------- VIEWMODEL ARMS ----------
+### >---------- VIEWMODEL ARMS ----------
 
 Q8: My viewmodel arms look all crunchy and malformed in-game!
 
