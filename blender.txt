@@ -1,0 +1,10 @@
+Troubleshooting common problems in current Blender and Blender 2.79.
+
+---------- NEW BLENDER ----------
+Q1: 
+
+
+---------- OLD BLENDER ----------
+Q1: RuntimeError: Armature 'proportions' not in edit mode, cannot add an editbone
+
+A1: When you're importing the .smd, make sure to first set 'Bone Append Mode' to 'Make New Armature', then import the following model pieces with 'Append to Target'.
