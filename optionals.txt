@@ -1,4 +1,4 @@
-Troubleshoots bugs explicitly related to the optional features of the guide.
+This file contains troubleshooting fixes related to the optional features of the guide.
 
 Q1: When I use the face flexes on my model, the eyebrows are duplicated!
 
