@@ -1,4 +1,4 @@
-Troubleshooting common problems in current Blender and Blender 2.79.
+This file contains troubleshooting fixes for the process in current Blender and Blender 2.79.
 
 ---------- NEW BLENDER ----------
 Q1: When I imported the sample collision model, it's in A-pose when it should be in T-pose.
