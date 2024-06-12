@@ -9,7 +9,7 @@ Q2: When I reopened by blend file, my model's untextured and bright pink!
 
 > A2: That happens because the textures aren't packed into the .blend file, so reopening the project will have those textures missing. While it can be off-putting and harder to work with, it does not affect the process.
 
-### >---------- 2.7 BLENDER ----------
+### >---------- 2.79 BLENDER ----------
 Q2: RuntimeError: Armature 'proportions' not in edit mode, cannot add an editbone
 
 > A2: When you're importing the .smd, make sure to first set 'Bone Append Mode' to 'Make New Armature', then import the following model pieces with 'Append to Target'.
