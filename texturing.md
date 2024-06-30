@@ -11,3 +11,8 @@ Q2: My model is textured, but there's a purple tint over it!
 Q3: My model is correctly textured, but the square icon for my model in the playermodel selector is untextured.
 
 > A3: This is a clientside issue. Navigate to GarrysMod > garrysmod > materials > spawnicons > models. You can pick out your username from the list of folders and enter it to delete the icon(s) (the same username used in your .qc file.) New icons will automatically be generated upon re-entering Garry's Mod, which will be textured as long as your model is textured.
+
+Q4: Some of the textures for my Vroid Studio model are combined into a single image!
+
+> A4: When you get to editing the .vmt files, all you need to do is use the texture image that contains the texture for the .vmt file you're curently editing. This means that multiple or all of your .vmt files will be directed to the same image(s). Garry's Mod should be able to figure out what part of the image it should use for each .vmt file.
+
