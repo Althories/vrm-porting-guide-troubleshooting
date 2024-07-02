@@ -1,19 +1,23 @@
-## This file contains troubleshooting fixes for problems after successful model compilation. Refer to the Crowbar documentation for compilation errors.
+## This file contains troubleshooting fixes for problems after successful model compilation. For the most part, refer to Crowbar documentation for compilation errors.
 
 ### >---------- GENERAL ----------
 
-Q1: My model compiled, but its limbs are all stretched out!
+Q1: Crowbar compilation error: Stack Overflow Error during compilation!
 
-> A1: This is a result of using the pre-proportion trick model smd. Make sure you used the model dmx from your proportion trick export.
+> A1: While I haven't been able to verify this, it may occur if your model's polycount is too high. Try removing parts of the mesh or other methods to reduce your model's overall polygon count.
 
-Q2: My model compiled, but it's stuck in a T-pose!
+Q2: My model compiled, but its limbs are all stretched out!
 
-> A2: It's likely that the skeleton wasn't properly identified by Crowbar. You may have forgotten to rename the bones, or there was a misstep during proportion trick. Checking for the first is easy,
+> A2: This is a result of using the pre-proportion trick model smd. Make sure you used the model dmx from your proportion trick export.
+
+Q3: My model compiled, but it's stuck in a T-pose!
+
+> A3: It's likely that the skeleton wasn't properly identified by Crowbar. You may have forgotten to rename the bones, or there was a misstep during proportion trick. Checking for the first is easy,
 but knowing whether you messed up in proportion trick can be tough to determine. If that might be the case, I would recommend re-exporting your model from new Blender and re-applying proportion trick.
 
-Q3: When I apply my model in the playermodel selector, my model appears as an error.
+Q4: When I apply my model in the playermodel selector, my model appears as an error.
 
-> A3: If you think everything else is right and your model looks normal in Crowbar's model viewer, you likely have a typo or incorrect directory in the .lua file. That, or one of the lines is commented out. True story!
+> A4: If you think everything else is right and your model looks normal in Crowbar's model viewer, you likely have a typo or incorrect directory in the .lua file. That, or one of the lines is commented out. True story!
 
 ### >---------- RAGDOLL ----------
 
