@@ -1,4 +1,4 @@
-## This file contains troubleshooting fixes for problems after successful model compilation.
+## This file contains troubleshooting fixes for problems after successful model compilation. Refer to the Crowbar documentation for compilation errors.
 
 ### >---------- GENERAL ----------
 
