@@ -8,7 +8,7 @@ Q1: Crowbar compilation error: Stack Overflow Error during compilation!
 
 Q2: Crowbar compilation error: Too many bone influences per vertex
 
-> A2: This may happen if you had to use the decimate modifier, and will break face flex functionality. The message means you used the modifier on the face and exported, which contains shape keys. The decimate modifier cannot be applied on a mesh with shape keys, so you'll need to remove the face from the selection of the modifier. Separate by selection works for this, but it might be easier to go back to a point where the face, body, and hair were still separate.
+> A2: This may occur if you used the decimate modifier in 2.79 Blender. You can press 'Space' to search Limit Number of Weights per Vertex. Lower all parts of your mesh to 3 or below, then re-export the model. 2.79 Blender may still give an export warning, so you can keep lowering the limit until the warning goes away. I'm hoping this does not have disastrous consequences outside of my test run
 
 Q3: My model compiled, but its limbs are all stretched out!
 
