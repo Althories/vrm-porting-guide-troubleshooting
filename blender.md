@@ -17,3 +17,7 @@ Q3: RuntimeError: Armature 'proportions' not in edit mode, cannot add an editbon
 Q4: When I import my model, the skeleton is much smaller than the model's mesh.
 
 > A4: In new Blender, apply all transformations (with Ctrl+A) on everything in the scene. Then, re-export the model.
+
+Q5: ERROR: Cannot export shape keys from "model_name" because it has a 'COLLAPSE' Decimate modifier. Only UnSubdivide mode is supported.
+
+> A5: This may happen if you had to use the decimate modifier, and will disable face flex functionality. This message means you used the modifier on the face, which contains shape keys. The decimate modifier cannot be applied on a mesh with shape keys, so you'll need to remove the face from the selection of the modifier. Separate by selection works for this, but it might be easier to go back to a point where the face, body, and hair were still separate.
