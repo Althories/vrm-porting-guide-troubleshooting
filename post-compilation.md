@@ -4,7 +4,7 @@
 
 Q1: Crowbar compilation error: Stack Overflow Error during compilation!
 
-> A1: While I haven't been able to verify this, it may occur if your model's polycount is too high. Try removing parts of the mesh or other methods to reduce your model's overall polygon count.
+> A1: This may occur if your model's polycount is too high. Try removing parts of the mesh or using other methods to reduce your model's overall polygon count. Blender's decimate modifier works well for this.
 
 Q2: My model compiled, but its limbs are all stretched out!
 
