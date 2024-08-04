@@ -6,7 +6,7 @@ Q1: I've set up my .vmt files to display textures in-game, but my model still ap
 
 Q2: My model is textured, but there's a purple tint over it!
 
-> A2: You're missing base.vtf in your materials/models/yourmodel_pm folder. Make sure to have that in there!
+> A2: You're missing base.vtf in your materials/models/yourmodel_pm folder. Or, you have base.vtf and there's a typo (or typos) in a file (or files) referencing base.vtf. Check your .vmt files to make sure your lines are correct!
 
 Q3: My model is correctly textured, but the square icon for my model in the playermodel selector is untextured.
 
