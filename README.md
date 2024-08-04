@@ -6,5 +6,5 @@ This repository does not cover every possible Crowbar compilation error, only th
 1. blender.md contains troubleshooting fixes for the process in current Blender and Blender 2.79.
 2. general.md contains troubleshooting fixes that aren't necessarily specific to any one program in the process.
 3. optionals.md contains troubleshooting fixes related to the optional features of the guide.
-4. pre/post-compilation.md contains troubleshooting fixes for problems concerning Crowbar compilation.
+4. pre&post-compilation.md contains troubleshooting fixes for problems concerning Crowbar compilation.
 5. texturing.md contains troubleshooting fixes for texturing issues.
