@@ -14,8 +14,6 @@ Q3: My model compiled, but its limbs are all stretched out!
 
 > A3: This is a result of using the pre-proportion trick model smd. Make sure you used the model dmx from your proportion trick export.
 
-Q4: Warning: Too many bone influences per vertex. This can pop up again if you needed to reduce polycount. 
-
 Q4: My model compiled, but it's stuck in a T-pose!
 
 > A4: It's likely that the skeleton wasn't properly identified by Crowbar. You may have forgotten to rename the bones, or there was a misstep during proportion trick. Checking for the first is easy,
