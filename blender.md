@@ -14,10 +14,14 @@ Q3: RuntimeError: Armature 'proportions' not in edit mode, cannot add an editbon
 
 > A3: When you're importing the .smd, make sure to first set 'Bone Append Mode' to 'Make New Armature', then import the following model pieces with 'Append to Target'.
 
-Q4: When I import my model, the skeleton is much smaller than the model's mesh.
+Q4: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 0: unexpected end of data
 
-> A4: In new Blender, apply all transformations (with Ctrl+A) on everything in the scene. Then, re-export the model.
+> A4: I don't have complete confirmation just yet, but this might happen if your blender or computer is in a language other than English. Instead of changing the language, something you can try is editing the Blender Source Tools script and making the following change: Change 'return out.decode()' to 'return out.decode(errors="ignore")'. You can find where this script is located by opening Old Blender, going to File > User Preferences > Addons, and finding the Blender Source Tools addon in the list. The description of the addon should tell you where the script is located in your filesystem.
 
-Q5: ERROR: Cannot export shape keys from "model_name" because it has a 'COLLAPSE' Decimate modifier. Only UnSubdivide mode is supported.
+Q5: When I import my model, the skeleton is much smaller than the model's mesh.
 
-> A5: This may happen if you had to use the decimate modifier, and will disable face flex functionality. This message means you used the modifier on the face, which contains shape keys. The decimate modifier cannot be applied on a mesh with shape keys, so you'll need to remove the face from the selection of the modifier. Separate by selection works for this, but it might be easier to go back to a point where the face, body, and hair were still separate.
+> A5: In new Blender, apply all transformations (with Ctrl+A) on everything in the scene. Then, re-export the model.
+
+Q6: ERROR: Cannot export shape keys from "model_name" because it has a 'COLLAPSE' Decimate modifier. Only UnSubdivide mode is supported.
+
+> A6: This may happen if you had to use the decimate modifier, and will disable face flex functionality. This message means you used the modifier on the face, which contains shape keys. The decimate modifier cannot be applied on a mesh with shape keys, so you'll need to remove the face from the selection of the modifier. Separate by selection works for this, but it might be easier to go back to a point where the face, body, and hair were still separate.
