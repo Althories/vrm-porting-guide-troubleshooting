@@ -8,7 +8,7 @@ Q1: Crowbar compilation error: could not load file 'anims/reference_female'"
 
 Q2: Crowbar compilation error: Stack Overflow Error during compilation!
 
-> A2: This may occur if your model's polycount is too high. Try removing parts of the mesh or using other methods to reduce your model's overall polygon count. Blender's decimate modifier works well for this.
+> A2: This may occur if your model's polycount is too high. Try removing parts of the mesh or using other methods to reduce your model's overall polygon count. Blender's decimate modifier works well for this. Be warned though: the decimate modifier is not able to apply to the face without removing its shape keys. If you wanted to keep shape keys, try applying the decimate modifier to mesh parts BEFORE joining them with the face. I'm not sure this 100% works but it would be cool if it did
 
 Q3: Crowbar compilation error: Too many bone influences per vertex
 
