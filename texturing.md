@@ -3,8 +3,11 @@
 Q1: I've set up my .vmt files to display textures in-game, but my model still appears untextured!
 
 > A1-1: Before checking anything, switch to the 'View' tab in Crowbar after compiling the model. If the 'Material File Names' section only shows one material called 'Material', the textures will not display. You may need to downgrade the current newest version of Blender and re-export from there for the materials to process correctly.
+
 > A1-2: The most common reason this occurs is because a directory is pointing to the wrong place. Ensure that your $cdmaterials line in the main .qc compile file is pointing to the right place. This can also occur within your .vmt files, so ensure your directory names are correct.
+
 > A1-3: Make sure the materials are actually in the addons folder inside the Gmod directory.
+
 > A1-4: If some but not all of your textures are displaying, your directories are correct in only some of your .vmt files.
 
 Q2: I've set up my .vmt files to display textures in-game, but my model appears as a white wireframe outline!
