@@ -2,7 +2,7 @@
 
 Q1: I've set up my .vmt files to display textures in-game, but my model still appears untextured!
 
-> A1: The most common reason this occurs is because a directory is pointing to the wrong place. Ensure that your $cdmaterials line in the main .qc compile file is pointing to the right place. This can also occur within your .vmt files, so ensure your directory names are correct. If some but not all of your textures are displaying, your directories are correct in only some of your .vmt files. Note that if you move any files or folders in your pc's filesystem, you'll have to change where the directories are pointing to, as well.
+> A1: The most common reason this occurs is because a directory is pointing to the wrong place. Ensure that your $cdmaterials line in the main .qc compile file is pointing to the right place. This can also occur within your .vmt files, so ensure your directory names are correct. Make sure the materials are actually in the addons folder inside the Gmod directory. If some but not all of your textures are displaying, your directories are correct in only some of your .vmt files. Note that if you move any files or folders in your pc's filesystem, you'll have to change where the directories are pointing to, as well.
 
 Q2: I've set up my .vmt files to display textures in-game, but my model appears as a white wireframe outline!
 
