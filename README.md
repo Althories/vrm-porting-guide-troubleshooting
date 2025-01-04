@@ -8,3 +8,4 @@ This repository does not cover every possible Crowbar compilation error, only th
 3. optionals.md contains troubleshooting fixes related to the optional features of the guide.
 4. pre&post-compilation.md contains troubleshooting fixes for problems concerning Crowbar compilation.
 5. texturing.md contains troubleshooting fixes for texturing issues.
+6. QUICK-GUIDE.md is a shortened version of the process that I follow to quickly assemble and troubleshoot models. If it helps, use it!
