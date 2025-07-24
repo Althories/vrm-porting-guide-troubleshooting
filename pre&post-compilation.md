@@ -6,9 +6,9 @@ Q: Crowbar compilation error: could not load file 'anims/reference_female'"
 
 > A: This can occur if you don't set the correct file path to export to in old blender. Redo proportion trick or set the export directory to the correct folder (proportion trick compile)
 
-Q: Crowbar compilation error: Stack Overflow Error during compilation!
+Q: Crowbar compilation error: Stack Overflow Error during compilation OR "Ghost Compile"
 
-> A: This may occur if your model's polycount is too high. Try removing parts of the mesh or using other methods to reduce your model's overall polygon count. Blender's decimate modifier works well for this. Be warned though: the decimate modifier is not able to apply to the face without removing its shape keys. If you wanted to keep shape keys, try applying the decimate modifier to mesh parts BEFORE joining them with the face. I THINK that the threshhold for Crowbar's polygon limit is 25-30k, but don't take my word for it.
+> A: This may occur if your model's polycount is too high. You may also have this issue if Crowbar says your model compiled, but there is no output. Try removing parts of the mesh or using other methods to reduce your model's overall polygon count. Blender's decimate modifier works well for this. Be warned though: the decimate modifier is not able to apply to the face without removing its shape keys. If you wanted to keep shape keys, try applying the decimate modifier to mesh parts BEFORE joining them with the face. I THINK that the threshhold for Crowbar's polygon limit is 25-30k, but don't take my word for it.
 
 Q: Crowbar compilation error: Too many bone influences per vertex
 
